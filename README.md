@@ -5,7 +5,7 @@ This project focuses on classifying images of flowers into five categories: **da
 ## Project Structure
 
 - `Flower_classification_CNN.ipynb`: A Convolutional Neural Network (CNN) model designed for flower classification. This model achieved an accuracy of approximately **65%**.
-- `Flower_classification_ResNet.ipynb`: A more advanced model based on the ResNet architecture, which significantly improved the classification performance, achieving an accuracy of **88.10%**.
+- `Flower_classification_ResNet.ipynb`: A more advanced model based on the ResNet50 architecture, which significantly improved the classification performance, achieving an accuracy of **88.10%**.
 - **Deployment**: The ResNet model is deployed on Hugging Face using Gradio, allowing for an interactive interface to classify images of flowers.
 
 ## Dataset
@@ -32,7 +32,7 @@ Each image is labeled with its corresponding flower class. The dataset is divide
 
 - **File**: `Flower_classification_ResNet.ipynb`
 - **Accuracy**: 88.10%
-- **Overview**: This model leverages the ResNet architecture, which allows for deeper networks by utilizing residual connections. The ResNet model significantly outperforms the CNN model in this task.
+- **Overview**: This model leverages the ResNet50 architecture, which allows for deeper networks by utilizing residual connections. The ResNet model significantly outperforms the CNN model in this task.
 - **Deployment**: The ResNet model has been deployed on Hugging Face using Gradio, providing an interactive interface to test flower classification.
 
 ## Installation and Usage
